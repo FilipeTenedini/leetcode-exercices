@@ -1,10 +1,5 @@
 package resolved
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	l3 := &ListNode{Val: 0, Next: nil}
 	currentNode := l3
